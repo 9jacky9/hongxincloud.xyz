@@ -55,7 +55,7 @@
     
     @media (max-width: 900px) {
       .hero, .p-grid { grid-template-columns: 1fr; }
-      .nav-links { display: none; }
+      .nav-links { display: flex !important; overflow-x: auto; white-space: nowrap; width: 100%; order: 3; padding-top: 12px; padding-bottom: 5px; scrollbar-width: none; -webkit-overflow-scrolling: touch; gap: 15px; } .nav-links::-webkit-scrollbar { display: none; } header .container { flex-wrap: wrap; }
       .hero h1 { font-size: 3rem; }
     }
   
